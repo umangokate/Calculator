@@ -9,3 +9,5 @@
 
     - name: pull docker image
       shell: docker pull um86/calculatordevops
+    - name: running container
+      shell: docker run -it -d um86/calculatordevops /bin/bash
